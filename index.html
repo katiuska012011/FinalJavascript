@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" ;>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+ integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+ crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+<script src="js/form.js"></script>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- Nav -->
+  <header id="arriba">
+    <nav class="h2 text-center display-4 fixed-top">
+      <ul>
+        <li class="animated "> <a href="#servicios" class="text-white">Servicios</a> </li>
+        <li class="animated "><a href="#nosotros" class="text-white">Nosotros</a></li>
+        <li class="animated "><a href="#contactos" class="text-white">Contactos</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <div class="conteiner-fluid animated bounceInUp">
+    <div class="row">
+      <div id="carouselExampleIndicators" class="carousel slide container-fluid " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="img/furgoneta.jpeg" alt="First slide">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="font:oblique bold cursive;" class="colorN">Servicios De Transporte</h3>
+            <h1 style="font: 500% bold normal;"> Camino Real</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<div id="servicios"></div>
+
+  <!-- La parte de servicio -->
+  <div > 
+    <dt class="h1 text-center display-4 colorN" style="margin-top:40px" > Servicios</dt>
+    <p class="text-center"> <cite>
+        <blockquote class="text-center">¡El mejor servicio dedicado exclusivamente para ti!</blockquote>
+      </cite> </p>
+  </div>
+  <hr>
+  <div class="container-fluid">
+    <div onclick="ver()" class="row d-flex justify-content-center">
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/servicio3.jpg" class="img" alt="">
+        <h4 class="text-center"><dt> Cinema</dt> </p>
+        </h4>
+        <p class="text-center"> <cite> Transportamos tus equipos de filmación con seguridad. </cite></p>
+      </div>
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/eventos1jpg.jpg" class="img" alt="">
+        <h4 class="text-center"><dt> Eventos</dt> </h4>
+        <p class="text-center"> <cite> El mejror servicio para tu dia especial. </cite></p>
+      </div>
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/turismo.JPG" class="img" alt="">
+        <h4 class="text-center"> <dt> Turismo</dt></h4>
+        <p class="text-center"> <cite> Haz tus sueños realidad. ¡VIAJA!</cite></p>
+      </div>
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/transporte_aeropuerto.jpg" class="img" alt="">
+        <h4 class="text-center"> <dt> Aeropuerto</dt></h4>
+        <p class="text-center"> <cite> Donde quieras ir ahí estaremos.</cite></p>
+      </div>
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/cinturon-seguridad.jpg" class="img">
+        <h4 class="text-center"> <dt> Seguridad</dt></h4>
+        <p class="text-center"> <cite> Lo primordial para nosotros es mantenerte seguro.</cite></p>
+      </div>
+      <div class=" col-md-3 m-3 imgs bgfoto">
+        <img src="img/servicios1.jpg" class="img" alt="">
+        <h4 class="text-center"> <dt> Servico clase-A</dt></h4>
+        <p class="text-center"> <cite> Haz tus planes, nosotros nos encargamos de llevarte.</cite></p>
+      </div>
+    </div>
+  </div>
+  <!-- Grupo de trabajo -->
+  <div class="backfoto text-center " style="height:300px;">
+  </div>
+  <div id="nosotros"></div>
+
+  <div>
+    <dt class="h1 text-center display-4 " style="margin-top:100px;"> Nosotros</dt>
+    <p class="text-center"> <cite>
+
+        <p class="text-center"> <cite>¡El mejor equipo de trabajo a tu disposicion! </cite></p>
+      </cite> </p>
+  </div>
+  <div class="container">
+    <hr>
+  </div>
+  <div  class="container center" style="margin-top:100px;">
+    <div class="row">
+      <div class="col-md-4 personal ">
+        <img class="imgPersonal " src="img/personal.jpg" alt="">
+        <h4 class="text-center mt-4"> <dt> Alfredo Perez</dt></h4>
+        <blockquote class="text-center"><cite>Gerente</cite></blockquote>
+
+      </div>
+      <div class="col-md-4 personal">
+        <img class="imgPersonal" src="img/personal2.jpg" alt="">
+        <h4 class="text-center mt-4"> <dt> Carlos Ramirez</dt></h4>
+        <blockquote class="text-center"> <cite>Propietario</cite></blockquote>
+      </div>
+      <div class="col-md-4 personal">
+        <img class="imgPersonal" src="img/personal3.jpg" alt="">
+        <h4 class="text-center mt-4"> <dt> Isaac Rosario</dt></h4>
+        <blockquote class="text-center"> <cite> Supervisor</cite> </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contactos -->
+
+
+  <div class="container" id="contactos">
+    <hr>
+  </div>
+  <div class="container-fluid contactos" style="margin-top:150px;">
+
+    <div class="container">
+      
+        <h2 class="borrameporfavor  display-4 colorN "> Contactos</h2>
+      
+<!-- formulario  -->
+      <form method="POST" onsubmit="return validar()">
+        <div class="row">
+          <div class="form-group col-md-6">
+            <input id="inputname" type="text" class="form-control col-md-12 mt-2" style="height:70px" placeholder="Nombre*" >
+            <input id="inputemail" type="email" class="form-control col-md-12 mt-2" style="height:70px" placeholder="Email*" >
+            <input id="inputtelefono" type="text" class="form-control col-md-12 mt-2" style="height:70px" placeholder="Telefono*">
+          </div>
+          <div class="col-md-6  ">
+            <textarea class="form-control col-md-12 mt-2" id="comentario" placeholder="*Text" style="height:225px;" id="exampleFormControlTextarea1"></textarea>
+          </div>
+        </div>
+        <div class="center">
+          <button class="btn btn-lg col-md-2 text-white enviar"   type="submit"> Enviar Mensaje</button>
+        </div>  
+      </form>
+      <div style="margin-top:50px" >
+        <p>.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- footter -->
+
+  <footer style="margin-top: 50px;">
+ <div class="container">
+    <div class="row">
+        <div class="col-md-4" >
+            <p > &copy; Katiuska Gonzalez 2018</p>
+        </div>
+
+          <div class="col-md-4 center">
+           <button class="redesPersonal fa fa-facebook fa-2x" onclick="Redireccionface()"></button>
+           <button class="redesPersonal fa fa-whatsapp fa-2x"  data-toggle="modal" data-target="#exampleModalCenter"></button>
+           <button class="redesPersonal fa fa-envelope-o fa-2x" onclick="Redirecciongmail()"></button>
+          </div>
+          <div class="col-md-4 colorN"> Privacy Policy</div>
+    </div>
+ </div>
+    </footer>
+
+    <!-- whatsaapp -->
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header headermodal" >
+      </div>
+      <div class="modal-body">
+        <div class=" col-md-12 center">
+          <i class="fa fa-whatsapp fa-3x"></i> 
+          <h3 style="margin-top:3%">829-758-9779</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- mapa -->
+<div style="margin-top:3%"></div>
+<div id="map" class="container-fluid" ></div>
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    L.marker([51.5, -0.09]).addTo(map)
+        .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
+        .openPopup();
+        </script>
+
+ 
+
+
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

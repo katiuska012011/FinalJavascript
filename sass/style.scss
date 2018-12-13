@@ -1,0 +1,137 @@
+
+$colornav:rgb(48, 46, 45);
+$naranja:rgb(170, 73, 8);
+
+*{
+    margin: 0;
+}
+.headermodal{
+    background: $colornav;
+}
+
+body{
+    background: #fff;
+   overflow : hidden; overflow-y : scroll;
+}
+// El nav
+.h1{
+    color: $naranja;
+}
+nav{
+    padding: 0%;
+    list-style: none;
+    background-color: $colornav;
+   
+     li{
+      display: inline-block;
+      list-style: none;
+      padding: 1%;
+      color: white;
+      font-size: 20px;   
+    }
+  }
+  #logo{
+    float: left;
+    list-style: none;
+    
+}
+  nav li:hover{ 
+    background-color: rgba($color: rgb(212, 212, 212), $alpha: 0.2);
+  }
+
+ .btnsubir{
+     width: 80px;
+     height: 80px;
+     border: none;
+     top: 15px;
+     background-color: rgb(7, 99, 128);
+     right: 15px;
+     color: white;
+     border-radius: 50%;
+     float: right;
+ }
+
+ //el attachment con la foto
+
+ .backfoto{
+     background-image: url("../img/volkswagen-transporter-t6.jpg");
+     background-attachment: fixed;
+     background-size: 100% 100%;
+     color: white;
+ }
+ // Servicios
+.img{
+    width: 100%;  
+} 
+
+.imgs{
+ transition:0.7s;
+    &:hover{
+        box-shadow: 5px 5px 5px rgba($color: #8b4e1bb4, $alpha: 1.0);
+      }
+}
+.bgfoto{
+    background:  #F9F7F7;
+}
+//Nosotros
+.imgPersonal{
+    width: 80%;
+    border-radius: 50%;
+}
+.transicion{
+ transition:0.7s;
+}
+
+.posicionPersonal{
+    margin-top: 10px;
+}
+
+//Contacto
+.contactos{
+    background: $colornav; 
+    h2{
+        padding: 5%;
+        text-align: center;
+    }
+}
+.borrameporfavor{
+    margin-top: 20%;
+}
+
+.enviar{
+    background: $naranja;
+   
+    &:hover{   
+        background: rgba(194, 103, 57, 0.74);
+     }
+
+}
+
+//mapa
+
+#map{
+    height: 180px;
+}
+
+ //Fotter
+ .redesPersonal{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(44, 47, 48);
+    color: white;
+    border-radius: 50%;
+
+&:hover{
+    background: $naranja;
+    transition: 1s;
+}
+ }
+
+.colorN{
+    color: $naranja;
+}
+.center{
+    text-align: center;
+}
+

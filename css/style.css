@@ -1,0 +1,105 @@
+* {
+  margin: 0; }
+
+.headermodal {
+  background: #302e2d; }
+
+body {
+  background: #fff;
+  overflow: hidden;
+  overflow-y: scroll; }
+
+.h1 {
+  color: #aa4908; }
+
+nav {
+  padding: 0%;
+  list-style: none;
+  background-color: #302e2d; }
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 1%;
+    color: white;
+    font-size: 20px; }
+
+#logo {
+  float: left;
+  list-style: none; }
+
+nav li:hover {
+  background-color: rgba(212, 212, 212, 0.2); }
+
+.btnsubir {
+  width: 80px;
+  height: 80px;
+  border: none;
+  top: 15px;
+  background-color: #076380;
+  right: 15px;
+  color: white;
+  border-radius: 50%;
+  float: right; }
+
+.backfoto {
+  background-image: url("../img/volkswagen-transporter-t6.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white; }
+
+.img {
+  width: 100%; }
+
+.imgs {
+  transition: 0.7s; }
+  .imgs:hover {
+    box-shadow: 5px 5px 5px #8b4e1b; }
+
+.bgfoto {
+  background: #F9F7F7; }
+
+.imgPersonal {
+  width: 80%;
+  border-radius: 50%; }
+
+.transicion {
+  transition: 0.7s; }
+
+.posicionPersonal {
+  margin-top: 10px; }
+
+.contactos {
+  background: #302e2d; }
+  .contactos h2 {
+    padding: 5%;
+    text-align: center; }
+
+.borrameporfavor {
+  margin-top: 20%; }
+
+.enviar {
+  background: #aa4908; }
+  .enviar:hover {
+    background: rgba(194, 103, 57, 0.74); }
+
+#map {
+  height: 180px; }
+
+.redesPersonal {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #2c2f30;
+  color: white;
+  border-radius: 50%; }
+  .redesPersonal:hover {
+    background: #aa4908;
+    transition: 1s; }
+
+.colorN {
+  color: #aa4908; }
+
+.center {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
